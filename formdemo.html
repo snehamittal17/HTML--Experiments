@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h3>Registration form</h3>
+        <form action="/action.php">
+            <label>NAME: </label>
+            <input type="text" placeholder="username">
+            <br><br>
+            <input type="password" placeholder="password" required minlength="8">
+            <br><br>
+            <input type="date">
+            <h4>Select your  class:</h4>
+            <br>
+            <label for="101">
+                <input type="radio" value="class XI" name="class" id="101">class XI
+            </label>
+            <label for="102">
+                <input type="radio" value="class XII" name="class" id="102">class XII
+            </label>
+            <br><br>
+            <h4>Select your subjects:</h4>
+            <br>
+            <label for="math">
+                <input type="checkbox" value="maths" name="subject" id="90">maths
+            </label>
+           <br><br>
+            <label for="physics">
+                <input type="checkbox" value="physics" name="subject" id="91">physics
+            </label>
+            <br><br>
+            <label for="chem">
+                <input type="checkbox" value="chem" name="subject" id="92">chem
+            </label>
+            <br><br>
+            <label for="english">
+                <input type="checkbox" value="english" name="subject" id="93">english
+            </label>
+            <br><br>
+            <h5>Select your city:</h5>
+            <br><br>
+            <select name="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+            <br><br>
+            <textarea name="feedback" id="96" placeholder="please give your feedback" rows="6" coloumns="8">FEEDBACK</textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </main>
+</body>
+</html>
